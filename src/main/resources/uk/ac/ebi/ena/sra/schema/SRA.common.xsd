@@ -215,6 +215,13 @@
                         </xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="VERSION" type="xs:string" minOccurs="0" maxOccurs="1">
+				        <xs:annotation>
+					          <xs:documentation>
+						            The version of an accession in the referenced database.
+					          </xs:documentation>
+				        </xs:annotation>
+			      </xs:element>
         </xs:all>
     </xs:complexType>
 
